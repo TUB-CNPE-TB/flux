@@ -5,7 +5,7 @@ metadata:
   name: sock-shop
   namespace: flux-system
 spec:
-  interval: 20s
+  interval: 30s
   path: ./deploy/kubernetes/manifests
   prune: true
   sourceRef:
