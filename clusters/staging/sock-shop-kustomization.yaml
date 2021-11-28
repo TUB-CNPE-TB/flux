@@ -5,11 +5,11 @@ metadata:
   name: sock-shop
   namespace: flux-system
 spec:
-  interval: 5m0s
+  interval: 20s
   path: ./deploy/kubernetes/manifests
   prune: true
   sourceRef:
     kind: GitRepository
     name: sock-shop
-  targetNamespace: default
+  targetNamespace: sock-shop
 
