@@ -5,11 +5,13 @@ metadata:
   name: sock-shop
   namespace: flux-system
 spec:
-  interval: 30s
-  path: ./manifests
-  prune: true
+  interval: 10m0s
+  dependsOn:
+    - name: istio-system
   sourceRef:
     kind: GitRepository
     name: sock-shop
+    path: ./manifests
+  prune: true
   targetNamespace: sock-shop
 
