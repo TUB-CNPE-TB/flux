@@ -11,7 +11,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: sock-shop
-    path: ./manifests
+  path: ./manifests
   prune: true
   targetNamespace: sock-shop
 
