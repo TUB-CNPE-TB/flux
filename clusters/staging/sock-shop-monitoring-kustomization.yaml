@@ -10,6 +10,6 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: sock-shop
+    name: kubernetes-deployment
   targetNamespace: monitoring
 
