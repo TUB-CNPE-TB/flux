@@ -12,6 +12,6 @@ spec:
   - kind: GitRepository
     name: flux-system
   secretRef:
-    name: webhook-token
+    name: webhook_token
   type: github
 
