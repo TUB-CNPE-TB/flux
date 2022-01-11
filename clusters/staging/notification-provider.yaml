@@ -7,7 +7,7 @@ metadata:
 spec:
   channel: flux-notifications
   secretRef:
-    name: DISCORD_URL
+    name: discord-url
   type: discord
   username: flux-bot
 
