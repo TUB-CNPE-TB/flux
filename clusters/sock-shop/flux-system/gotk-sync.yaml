@@ -10,7 +10,7 @@ spec:
   ref:
     branch: main
   secretRef:
-    name: gitops-auth
+    name: flux-system
   url: ssh://git@github.com/TUB-CNPE-TB/gitops
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
